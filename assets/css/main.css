@@ -1,0 +1,38 @@
+body{
+	display: block;
+	margin: 0;
+	color: #4d4d4d;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+header{
+	background-color: #026AA7;
+    padding: 5px;
+    height: 30px;
+    width: 100%;
+}
+
+.header-logo{
+	background-image: url(../img/header-logo.png);
+	background-repeat: no-repeat;
+	height: 30px;
+	width: 80px;
+	position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    top: 5px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.contenido{
+	padding: 8px 4px 8px 8px;
+}
+
+.contenido h3{
+	font-size: 18px;
+	font-weight: 700;
+	padding-left: 4px;
+}
