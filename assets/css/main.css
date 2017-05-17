@@ -72,3 +72,44 @@ button{
 button:hover{
 	background-color: #5AAC44;
 }
+
+.contenedor-tarjeta .lista{
+	background: #E2E4E6;
+	border-radius: 3px;
+	color: rgb(77, 77, 77);
+	width: 270px;
+	/*position: absolute;*/
+	padding: 16px 50px 0px 4px;
+	margin-top: 20px;
+}
+
+#sp{
+	height: 30px;
+	padding: 8px 10px; /*padding-top: 0px;*/
+	font-weight: bold;
+	text-align: middle;
+}
+
+#sp a{
+	color: #8c8c8c;
+	padding: 8px 10px;
+	font-weight: normal;
+	text-decoration: none;
+	position: relative;
+	display: block;
+}
+
+#sp a:hover{
+	background-color: #bfbbbb;
+	color: #4d4d4d;;
+}
+
+/*
+#txt{
+	width: 310px;
+	height: 80px;
+	border-radius: 3px;
+
+
+}
+*/
