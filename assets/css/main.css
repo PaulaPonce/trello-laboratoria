@@ -1,6 +1,7 @@
 body{
 	display: block;
 	margin: 0;
+	background-color: #0079bf;
 	color: #4d4d4d;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
@@ -27,12 +28,47 @@ header{
     opacity: 0.5;
 }
 
-.contenido{
+.tablero{
 	padding: 8px 4px 8px 8px;
 }
 
-.contenido h3{
+.tablero h3{
 	font-size: 18px;
 	font-weight: 700;
 	padding-left: 4px;
+	color: whitesmoke;
+}
+
+.primer-contenedor{
+	background: rgba(0,0,0,.12);
+	border-radius: 3px;
+    color: rgba(255,255,255,.7);
+    padding: 8px 150px 8px 4px;
+}
+
+input{
+	background: #E2E4E6;
+	border: 1px solid #CDD2D4;
+    border-color: #aaa;
+	display: block;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding: 8px 85px 8px 4px;
+}
+
+button{
+	background-color: #61BD4F;
+	border-radius: 3px;
+	border:1px solid #3F6F21;
+	color: #fff;
+	font-weight: bold;
+	padding: 7px 20px;
+	height: 35px;
+	width: 100px;
+	margin-top: 4px;
+	text-shadow:1px 1px 0px #959DA1;
+}
+
+button:hover{
+	background-color: #5AAC44;
 }
