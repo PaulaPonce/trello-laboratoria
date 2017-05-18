@@ -46,6 +46,10 @@ header{
     padding: 8px 150px 8px 4px;
 }
 
+.tablero .nueva-lista span:hover{
+	background-color: #015B91;
+}
+
 input{
 	background: #E2E4E6;
 	border: 1px solid #CDD2D4;
@@ -77,7 +81,7 @@ button:hover{
 	background: #E2E4E6;
 	border-radius: 3px;
 	color: rgb(77, 77, 77);
-	width: 270px;
+	width: 206px;
 	/*position: absolute;*/
 	padding: 16px 50px 0px 4px;
 	margin-top: 20px;
@@ -97,11 +101,13 @@ button:hover{
 	text-decoration: none;
 	position: relative;
 	display: block;
+	margin-right: -46px;
 }
 
 #sp a:hover{
 	background-color: #bfbbbb;
-	color: #4d4d4d;;
+	color: #4d4d4d;
+	text-decoration: underline;
 }
 
 /*
