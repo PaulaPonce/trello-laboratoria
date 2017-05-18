@@ -49,11 +49,27 @@ function addInput(){
 		var enlace = document.createElement("a");
 		var txtEnlace = document.createTextNode("Añadir una tarjeta...");
 		enlace.setAttribute("href", "#");
+		enlace.setAttribute("id", "agregar-lista");
 		enlace.appendChild(txtEnlace);
 		nuevoSpan.appendChild(enlace);
 
+		var enlaceLista = document.getElementById("agregar-lista");
+		enlaceLista.addEventListener("click", anadirTarjeta);
 
+		function anadirTarjeta(){
+			//textarea para añadir tarjeta
+			var textArea = document.createElement("textarea");
+			textArea.setAttribute("id", "txt");
+			nuevaLista.appendChild(textArea);
 
+			//button
+			var botonAnadir = document.createElement("button");
+			var txtBoton2 = document.createTextNode("Añadir");
+			botonAnadir.setAttribute("type", "submit");
+			botonAnadir.setAttribute("id", "btn-2");
+			nuevaLista.appendChild(botonAnadir);
+			botonAnadir.appendChild(txtBoton2);
+		}
 /*
 		//textarea para añadir tarjeta
 		var textArea = document.createElement("textarea");
